@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Adventure Game"
+message: "If you use this project, please cite the repository."
+type: software
+authors:
+  - family-names: Kumar
+    given-names: Brajesh
+    affiliation: "Independent"
+repository-code: "https://github.com/brajesh31/Adventure-Game"
+abstract: "An interactive TypeScript and Node.js terminal adventure game."
+keywords:
+  - TypeScript
+  - Node.js
+  - CLI
+  - game
+license: MIT
+version: 1.0.0
+date-released: 2025-01-01
