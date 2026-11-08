@@ -62,7 +62,7 @@
     "string-width": "^4.2.3",
     "strip-ansi": "^6.0.1",
     "supports-color": "^7.2.0",
-    "tmp": "^0.0.33",
+    "tmp": "^0.2.7",
     "tslib": "^2.6.2",
     "type-fest": "^0.21.3",
     "undici-types": "^5.26.5",
