@@ -1,31 +1,23 @@
-# 📚 Adventure Game Documentation
+# 📚 Adventure Game Documentation Index
 
-This directory contains technical and gameplay documentation for the Adventure Game terminal application.
-
-## Guides
-
-| Document | Purpose |
+| Guide | Description |
 |---|---|
-| [Gameplay](gameplay.md) | Understand the current prompts, actions, fuel model, and outcomes |
-| [Architecture](architecture.md) | Understand the source files and runtime boundaries |
-| [Installation](installation.md) | Install Node.js dependencies |
-| [Development](development.md) | Edit TypeScript and JavaScript safely |
-| [Testing](testing.md) | Manual checks and automated validation status |
-| [Troubleshooting](troubleshooting.md) | Diagnose terminal, module, and compilation problems |
-| [FAQ](faq.md) | Common questions and project limitations |
-| [Deployment](deployment.md) | Run and distribute the local CLI |
+| [Gameplay](gameplay.md) | Current player, opponent, fuel, action, and outcome behaviour |
+| [Architecture](architecture.md) | Code structure, dependencies, and execution boundary |
+| [Installation](installation.md) | Runtime setup and npm installation |
+| [Development](development.md) | TypeScript source and JavaScript workflow |
+| [Testing](testing.md) | Manual and compiler validation |
+| [Troubleshooting](troubleshooting.md) | Terminal, module, and TypeScript issues |
+| [FAQ](faq.md) | Frequently asked questions |
+| [Deployment](deployment.md) | Local distribution and execution |
 
-## Recommended reading
+## Recommended paths
 
-**Players:** read the root [README](../README.md), then follow the gameplay guide.
+**Players:** root README and Gameplay.
 
-**Contributors:** start with [Development](development.md), [Architecture](architecture.md), and [Testing](testing.md).
+**Contributors:** Installation, Development, Architecture, Testing, and CONTRIBUTING.
 
-**Maintainers:** review [MAINTAINERS](../MAINTAINERS.md), [Security](../SECURITY.md), and the [Roadmap](../ROADMAP.md).
-
-## Project boundaries
-
-This repository is a local terminal application. It does not provide a hosted server, browser game, database, online multiplayer, or persistent save service. Documentation distinguishes current behaviour from proposed features.
+**Maintainers:** MAINTAINERS, SECURITY, ROADMAP, and CHANGELOG.
 
 ## Repository policies
 
@@ -33,7 +25,10 @@ This repository is a local terminal application. It does not provide a hosted se
 - [Code of Conduct](../CODE_OF_CONDUCT.md)
 - [Security](../SECURITY.md)
 - [Support](../SUPPORT.md)
-- [Maintainer guide](../MAINTAINERS.md)
+- [Maintainers](../MAINTAINERS.md)
+- [Governance](../GOVERNANCE.md)
 - [Roadmap](../ROADMAP.md)
 - [Changelog](../CHANGELOG.md)
 - [License](../LICENSE)
+
+All documentation should distinguish current implementation from proposed improvements.
