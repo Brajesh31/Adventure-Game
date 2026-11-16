@@ -1,8 +1,8 @@
 {
-  "name": "project07",
+  "name": "adventure-game",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "Interactive command-line adventure battle simulation built with Node.js, TypeScript, Inquirer, and Chalk.",
   "main": "index.js",
   "dependencies": {
     "@types/chalk": "^2.2.0",
@@ -73,7 +73,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "adventure-game",
+    "cli-game",
+    "nodejs",
+    "typescript",
+    "inquirer",
+    "chalk",
+    "terminal-game"
+  ],
+  "author": "Brajesh Kumar",
+  "license": "MIT"
 }
