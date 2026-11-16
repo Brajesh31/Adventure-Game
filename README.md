@@ -330,6 +330,8 @@ See [ROADMAP.md](ROADMAP.md).
 | [Documentation index](docs/README.md) | All technical guides |
 | [Gameplay flow](docs/gameplay.md) | Turns, actions, fuel, and outcomes |
 | [Architecture](docs/architecture.md) | Source files and responsibilities |
+| [API scope](docs/api.md) | Current terminal interface and absence of an HTTP API |
+| [Data and storage](docs/database.md) | In-memory state and absence of persistent storage |
 | [Installation](docs/installation.md) | Requirements and dependency setup |
 | [Development](docs/development.md) | Editing and compiling the project |
 | [Testing](docs/testing.md) | Validation and manual scenarios |
