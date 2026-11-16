@@ -64,7 +64,7 @@
     "supports-color": "^7.2.0",
     "tmp": "^0.0.33",
     "tslib": "^2.6.2",
-    "type-fest": "^0.21.3",
+    "type-fest": "^5.10.0",
     "undici-types": "^5.26.5",
     "util-deprecate": "^1.0.2",
     "wcwidth": "^1.0.1",
