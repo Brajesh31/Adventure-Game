@@ -10,30 +10,13 @@ The project is a local Node.js CLI application. It uses Inquirer for prompts and
 
 ## Issue triage
 
-Classify incoming reports as:
-- Gameplay defect.
-- Prompt or terminal issue.
-- TypeScript compilation issue.
-- Dependency or lockfile issue.
-- Documentation correction.
-- Feature proposal.
-- Security report.
+Classify incoming reports as gameplay defects, prompt or terminal issues, TypeScript compilation issues, dependency problems, documentation corrections, feature proposals, or security reports.
 
-Ask for a reproduction using fictional names and values. Do not request personal information.
+Ask for reproductions using fictional names and values. Do not request personal information.
 
 ## Change review
 
-Check:
-- Both source entrypoints or a clear source-of-truth policy.
-- Prompt branch completeness.
-- Correct player/opponent state transitions.
-- Potion and attack behaviour.
-- Randomness and deterministic testability.
-- Graceful exit and cancellation.
-- Terminal output with colour disabled.
-- TypeScript compiler compatibility.
-- Lockfile consistency.
-- Updated documentation and roadmap.
+Check both entrypoints or a clear source-of-truth policy, prompt branch completeness, state transitions, potion and attack behaviour, random testability, graceful exit, terminal output without colour, compiler compatibility, lockfile consistency, and documentation accuracy.
 
 ## Release preparation
 
@@ -41,14 +24,13 @@ Check:
 2. Install from lockfile using `npm ci`.
 3. Run JavaScript syntax checks.
 4. Run TypeScript validation.
-5. Run the game in an interactive terminal.
-6. Test every opponent and action.
-7. Verify both attack outcomes and ending conditions.
-8. Update CHANGELOG.md.
-9. Confirm package version, metadata, and MIT licence.
-10. Tag the reviewed commit if publishing a version.
+5. Play through every opponent/action flow.
+6. Verify attack outcomes and ending conditions.
+7. Update CHANGELOG.md.
+8. Confirm package metadata and MIT licence.
+9. Tag the reviewed commit if publishing a version.
 
-Do not claim a release has automated test coverage while the npm test script remains a placeholder.
+Do not claim automated test coverage while npm test remains a placeholder.
 
 ## Dependency maintenance
 
@@ -56,7 +38,7 @@ The package currently lists numerous low-level packages directly. Review actual 
 
 ## Workflow maintenance
 
-Review the README timestamp workflow. It currently runs on every push and hourly, and has write permission to the repository. This can create unnecessary commits. Prefer minimal permissions and event triggers that do not create repeated documentation noise.
+Review the README timestamp workflow. It currently runs on every push and hourly, and has write permission to the repository. This can create unnecessary commits. Prefer minimal permissions and triggers that do not create repeated documentation noise.
 
 ## Routine checklist
 
@@ -65,6 +47,6 @@ Review the README timestamp workflow. It currently runs on every push and hourly
 - [ ] Review dependency advisories.
 - [ ] Keep TypeScript and JavaScript aligned.
 - [ ] Test all prompt branches.
-- [ ] Verify docs and navigation links.
-- [ ] Update changelog for meaningful changes.
+- [ ] Verify documentation links.
+- [ ] Update the changelog.
 - [ ] Keep secrets and private data out of commits.
