@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Interactive command-line adventure battle simulation built with Node.js, TypeScript, Inquirer, and Chalk.",
-  "main": "index.js",
+  "main": "game.js",
   "dependencies": {
     "@types/chalk": "^2.2.0",
     "@types/inquirer": "^9.0.7",
@@ -71,7 +71,10 @@
     "wrap-ansi": "^6.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node game.js",
+    "check:js": "node --check game.js",
+    "check:types": "npx --yes --package typescript tsc --noEmit"
   },
   "keywords": [
     "adventure-game",
