@@ -4,7 +4,6 @@ build/
 coverage/
 .env
 .env.*
-!.env.example
 .idea/
 .vscode/
 *.log
