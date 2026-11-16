@@ -133,7 +133,6 @@ Adventure-Game/
 ├── package.json
 ├── package-lock.json
 ├── tsconfig.json
-├── .env.example
 ├── .gitignore
 ├── .editorconfig
 ├── .github/
