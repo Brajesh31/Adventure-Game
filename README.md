@@ -135,23 +135,34 @@ Adventure-Game/
 ├── tsconfig.json
 ├── .gitignore
 ├── .editorconfig
+├── .gitattributes
 ├── .github/
+│   ├── dependabot.yml
 │   ├── PULL_REQUEST_TEMPLATE.md
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.yml
+│   │   ├── feature_request.yml
+│   │   └── config.yml
 │   └── workflows/
-│       └── update-readme.yml
+│       └── ci.yml
 ├── docs/
 │   ├── README.md
+│   ├── api.md
 │   ├── architecture.md
-│   ├── gameplay.md
+│   ├── database.md
+│   ├── deployment.md
 │   ├── development.md
+│   ├── faq.md
+│   ├── gameplay.md
 │   ├── installation.md
 │   ├── testing.md
-│   ├── troubleshooting.md
-│   ├── faq.md
-│   └── deployment.md
+│   └── troubleshooting.md
 ├── CHANGELOG.md
+├── CITATION.cff
+├── CODEOWNERS
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
+├── GOVERNANCE.md
 ├── LICENSE
 ├── MAINTAINERS.md
 ├── ROADMAP.md
